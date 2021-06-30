@@ -1,1 +1,1 @@
-name='stockTwitFetchAPI'
+name='stockTwitapi'
