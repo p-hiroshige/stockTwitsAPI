@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
 Name: stockTwitFetchAPI
-Version: 0.0.2
+Version: 0.0.3
 Summary: A small example package
 Home-page: https://github.com/p-hiroshige/stockTwitsAPI.git
 Author: Example Author
-Author-email: author@example.com
+Author-email: phiroshige@sbcglobal.net
 License: UNKNOWN
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
