@@ -79,7 +79,7 @@ class twitStreamer():
         '''
 
         url = self.url + 'streams/symbol/' + symbol_id + '.json'
-        print("url to get msgs:" +url)
+        #print("url to get msgs:" +url)
         data = {
                  'since': '{}'.format(since),
                  'max': '{}'.format(max),
