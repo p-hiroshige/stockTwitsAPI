@@ -44,7 +44,7 @@ class twitStreamer():
                  'limit': '{}'.format(limit),
                  # Fix when you figure out what this is
                  # 'callback' : '{}'.format(None),
-                 'filter': '{}'.format(filter)
+                 # 'filter': '{}'.format(filter)
                 }
 
         r = requests.get(url, headers=self.headers, params=data)
@@ -86,7 +86,7 @@ class twitStreamer():
                  'limit': '{}'.format(limit),
                  # Fix when you figure out what this is
                  # 'callback' : '{}'.format(None),
-                 'filter': '{}'.format(filter)
+                 # 'filter': '{}'.format(filter)
                 }
 
         r = requests.get(url, headers=self.headers, params=data)
