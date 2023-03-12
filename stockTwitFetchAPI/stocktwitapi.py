@@ -44,7 +44,7 @@ class twitStreamer():
                  'limit': '{}'.format(limit),
                  # Fix when you figure out what this is
                  # 'callback' : '{}'.format(None),
-                 'filter': '{}'.format(filter)
+                 # 'filter': '{}'.format(filter)
                 }
 
         r = requests.get(url, headers=self.headers, params=data)
@@ -79,14 +79,14 @@ class twitStreamer():
         '''
 
         url = self.url + 'streams/symbol/' + symbol_id + '.json'
-        print("url to get msgs:" +url)
+        #print("url to get msgs:" +url)
         data = {
                  'since': '{}'.format(since),
                  'max': '{}'.format(max),
                  'limit': '{}'.format(limit),
                  # Fix when you figure out what this is
                  # 'callback' : '{}'.format(None),
-                 'filter': '{}'.format(filter)
+                 # 'filter': '{}'.format(filter)
                 }
 
         r = requests.get(url, headers=self.headers, params=data)
